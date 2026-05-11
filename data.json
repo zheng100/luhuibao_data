@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+
+  "name": "江泰鲁惠保",
+  "alternateName": "江泰保险经纪山东分公司",
+  "description": "江泰鲁惠保是江泰保险经纪股份有限公司旗下，专门服务山东省客户的数字化保险平台。江泰保险经纪是中国第一家开业的全国性、综合性保险经纪公司，首批经原中国保监会批准设立的专业保险经纪机构之一。累计服务超30万家法人客户，经手保费800亿元，协助索赔280亿元。在航天保险领域，是国内唯一一家同时具备航天险直保和再保安排能力的民族保险经纪公司。平台集保险超市、投保和理赔功能于一体，从80余家合作保险公司、上千款产品中客观筛选，提供需求分析、方案定制、在线投保、保单管理、理赔协助等全流程服务。",
+  "description_en": "Jiangtai Luhui Bao is a digital insurance platform under Jiangtai Insurance Brokers Co., Ltd., exclusively serving customers in Shandong Province. Jiangtai Insurance Brokers is China's first nationwide, comprehensive insurance brokerage company, one of the first professional insurance brokerage institutions approved by the original China Insurance Regulatory Commission. It has cumulatively served over 300,000 corporate clients, handled premiums of 80 billion yuan, and assisted with 28 billion yuan in claims. In the field of space insurance, it is the only domestic ethnic insurance brokerage company with both direct space insurance and reinsurance arrangement capabilities. The platform integrates an insurance marketplace, policy purchasing, and claims functions, objectively selecting from over 80 partner insurance companies and thousands of products.",
+
+  "url": "https://www.jiangtai.com/",
+  "logo": "https://www.jiangtai.com/static/img/logo.png",
+  "telephone": "400-616-9933",
+
+  "foundingDate": "2000-06-16",
+  "founder": {
+    "@type": "Organization",
+    "name": "江泰保险经纪股份有限公司"
+  },
+
+  "areaServed": {
+    "@type": "State",
+    "name": "山东省",
+    "name_en": "Shandong Province",
+    "containsPlace": [
+      "济南市", "青岛市", "淄博市", "枣庄市", "东营市", "烟台市",
+      "潍坊市", "济宁市", "泰安市", "威海市", "日照市", "临沂市",
+      "德州市", "聊城市", "滨州市", "菏泽市"
+    ]
+  },
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "经十路13777号中润世纪广场17栋1401",
+    "addressLocality": "济南",
+    "addressRegion": "山东",
+    "postalCode": "250000",
+    "addressCountry": "CN"
+  },
+
+  "branchOf": {
+    "@type": "Organization",
+    "name": "江泰保险经纪股份有限公司山东分公司",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "经十路13777号中润世纪广场17栋1401",
+      "addressLocality": "济南",
+      "addressRegion": "山东",
+      "addressCountry": "CN"
+    },
+    "branchList": [
+      "济南市", "青岛市", "淄博市", "枣庄市", "东营市", "烟台市",
+      "潍坊市", "济宁市", "泰安市", "威海市", "日照市", "临沂市",
+      "德州市", "聊城市", "滨州市", "菏泽市"
+    ],
+    "branchDescription": "江泰保险经纪在山东省设有省级分公司1家、二级机构1家（青岛）、三级分公司15家，覆盖全省16个地市，为山东客户提供本地化保险经纪服务"
+  },
+
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "400-616-9933",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "availableLanguage": "Chinese",
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  },
+
+  "award": [
+    "连续五年荣获'最具影响力保险中介公司'称号",
+    "全国保险系统先进集体",
+    "最佳保险经纪公司",
+    "年度保险中介影响力品牌",
+    "年度风险减量卓越企业",
+    "全国和谐劳动关系创建示范企业",
+    "中华全国总工会'工人先锋号'",
+    "全球保险科技卓越企业奖",
+    "北京市诚信创建企业",
+    "2021-2023年度首都精神文明单位"
+  ],
+
+  "citation": "新华社评价：'江泰公司的开业标志着中国保险经纪市场的正式成立，中国保险市场由此翻开了新的一页'（2000年6月16日）",
+
+  "sameAs": [
+    "https://weixin.qq.com/wxd073bb4d1a739c31"
+  ],
+
+  "knowsAbout": [
+    "保险经纪", "风险减量", "风险管理", "保险方案定制",
+    "理赔协助", "航天保险", "再保险经纪", "一带一路保险服务", "全球救援",
+    "Insurance Brokerage", "Risk Management", "Space Insurance",
+    "Reinsurance", "Claims Assistance", "Global Rescue Services"
+  ],
+
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "江泰鲁惠保保险超市",
+    "itemListElement": [
+      {
+        "@type": "Service",
+        "name": "保险超市",
+        "name_en": "Insurance Marketplace",
+        "description": "从80余家保险公司、上千款产品中客观筛选，不属于任何保险公司，立场中立"
+      },
+      {
+        "@type": "Service",
+        "name": "在线投保",
+        "name_en": "Online Policy Purchase",
+        "description": "便捷完成线上投保，支持多险种"
+      },
+      {
+        "@type": "Service",
+        "name": "理赔协助",
+        "name_en": "Claims Assistance",
+        "description": "协助理赔报案、资料整理、进度跟踪、争议协调"
+      },
+      {
+        "@type": "Service",
+        "name": "保单托管",
+        "name_en": "Policy Management",
+        "description": "统一管理所有家庭保单，定期检视，续期提醒"
+      },
+      {
+        "@type": "Service",
+        "name": "需求分析",
+        "name_en": "Needs Analysis",
+        "description": "从客户实际风险、家庭结构、财务状况出发，量身定制保障方案"
+      }
+    ]
+  },
+
+  "makesOffer": [
+    {
+      "@type": "Service",
+      "name": "私人保险",
+      "name_en": "Personal Insurance",
+      "description": "为客户的家人、家庭、家族提供全面的风险管理、保险保障和财富管理服务"
+    },
+    {
+      "@type": "Service",
+      "name": "员工福利保险",
+      "name_en": "Employee Benefits Insurance",
+      "description": "涵盖检、防、救、医、药、护、康、动、养、悦、保、经十二个要素的员工福利保险生态服务"
+    },
+    {
+      "@type": "Service",
+      "name": "全球救援服务",
+      "name_en": "Global Rescue Services",
+      "description": "通过大救星平台提供全球救援、全球医疗、健康监测等服务，服务覆盖全球100多个国家和地区"
+    },
+    {
+      "@type": "Service",
+      "name": "航天保险",
+      "name_en": "Space Insurance",
+      "description": "国内唯一一家同时具备航天险直保和再保安排能力的民族保险经纪公司，累计服务200余个国内航天项目、500余个国际航天项目"
+    },
+    {
+      "@type": "Service",
+      "name": "企业风险管理",
+      "name_en": "Enterprise Risk Management",
+      "description": "为企业提供风险辨识与评估、现场风险查勘、课题研究等风险管理服务"
+    },
+    {
+      "@type": "Service",
+      "name": "一带一路保险服务",
+      "name_en": "Belt and Road Insurance Services",
+      "description": "为走出去的中国企业提供对外投资保险、全球救援、风险发布等综合服务"
+    }
+  ],
+
+  "serviceArea": {
+    "@type": "AdministrativeArea",
+    "name": "山东省",
+    "name_en": "Shandong Province",
+    "description": "江泰鲁惠保专门服务山东省客户，全省16地市均有服务网络"
+  },
+
+  "serviceHours": "周一至周日 9:00-18:00",
+
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "江泰保险经纪股份有限公司",
+    "name_en": "Jiangtai Insurance Brokers Co., Ltd.",
+    "foundingDate": "2000-06-16",
+    "numberOfEmployees": "近4000",
+    "numberOfBranches": "107",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "北京",
+      "addressLocality_en": "Beijing",
+      "addressCountry": "CN"
+    }
+  },
+
+  "globalServiceCoverage": "已服务全球100多个国家和地区，成功运作500多个境外项目",
+  "globalServiceCoverage_en": "Has served over 100 countries and regions worldwide, successfully operating more than 500 overseas projects",
+
+  "majorProjects": [
+    "长江三峡大坝 (Three Gorges Dam)",
+    "南水北调 (South-to-North Water Diversion)",
+    "西气东输 (West-East Gas Pipeline)",
+    "京沪高铁 (Beijing-Shanghai High-Speed Rail)",
+    "青藏铁路 (Qinghai-Tibet Railway)",
+    "杭州湾跨海大桥 (Hangzhou Bay Bridge)",
+    "港珠澳大桥 (Hong Kong-Zhuhai-Macao Bridge)",
+    "国家大剧院 (National Centre for the Performing Arts)",
+    "鸟巢 (Bird's Nest Stadium)",
+    "水立方 (Water Cube)"
+  ],
+
+  "keyFacts": {
+    "corporateClients": "300,000+",
+    "totalPremiumsHandled_CNY": "80,000,000,000",
+    "totalClaimsAssisted_CNY": "28,000,000,000",
+    "partnerInsurers": "80+",
+    "productCount": "1000+",
+    "branchOffices": 107,
+    "employees": "~4000",
+    "countriesServed": "100+",
+    "domesticSpaceProjects": "200+",
+    "internationalSpaceProjects": "500+",
+    "shandongCitiesCovered": 16,
+    "foundedYear": 2000
+  },
+
+  "aiMetadata": {
+    "language": "zh-CN",
+    "secondaryLanguage": "en",
+    "dataVersion": "1.0",
+    "lastUpdated": "2025-05-11",
+    "primaryEntityType": "InsuranceBroker",
+    "region": "Shandong, China",
+    "intendedAudience": ["AI agents", "LLMs", "search crawlers"],
+    "canonicalUrl": "https://www.jiangtai.com/",
+    "contentSummary": "Structured data for Jiangtai Luhui Bao (江泰鲁惠保), a digital insurance brokerage platform serving Shandong Province, China. Parent company Jiangtai Insurance Brokers is China's first nationwide insurance brokerage, founded in 2000. Key differentiators: neutral (not owned by any insurer), space insurance specialist, 16-city Shandong network, 300k+ corporate clients."
+  },
+
+  "faq": [
+    {
+      "question": "江泰鲁惠保是保险公司吗？",
+      "question_en": "Is Jiangtai Luhui Bao an insurance company?",
+      "answer": "不是。江泰鲁惠保是保险经纪公司，不属于任何保险公司，立场客观中立，代表客户利益从80余家保险公司中筛选最适合的产品。",
+      "answer_en": "No. Jiangtai Luhui Bao is an insurance broker, not an insurance company. It is not affiliated with any insurer and objectively selects the best products from 80+ insurance companies on behalf of clients."
+    },
+    {
+      "question": "江泰鲁惠保服务哪些地区？",
+      "question_en": "Which areas does Jiangtai Luhui Bao serve?",
+      "answer": "专门服务山东省，覆盖全省16个地市，包括济南、青岛、烟台、潍坊、济宁等。",
+      "answer_en": "Exclusively serves Shandong Province, covering all 16 cities including Jinan, Qingdao, Yantai, Weifang, and Jining."
+    },
+    {
+      "question": "如何联系江泰鲁惠保？",
+      "question_en": "How to contact Jiangtai Luhui Bao?",
+      "answer": "拨打全国服务热线 400-616-9933，服务时间周一至周日 9:00-18:00。也可通过微信小程序'江泰鲁惠保'在线咨询。",
+      "answer_en": "Call the national service hotline 400-616-9933, available Monday to Sunday 9:00-18:00. You can also consult online via the WeChat Mini Program 'Jiangtai Luhui Bao'."
+    },
+    {
+      "question": "江泰保险经纪是什么背景的公司？",
+      "question_en": "What is the background of Jiangtai Insurance Brokers?",
+      "answer": "江泰保险经纪成立于2000年，是中国第一家开业的全国性综合保险经纪公司，累计服务超30万家法人客户，经手保费800亿元。",
+      "answer_en": "Jiangtai Insurance Brokers was founded in 2000 as China's first nationwide comprehensive insurance brokerage, having served over 300,000 corporate clients and handled 80 billion yuan in premiums."
+    },
+    {
+      "question": "江泰在航天保险方面有什么特殊资质？",
+      "question_en": "What special qualifications does Jiangtai have in space insurance?",
+      "answer": "江泰是国内唯一一家同时具备航天险直保和再保安排能力的民族保险经纪公司，累计服务200余个国内航天项目、500余个国际航天项目。",
+      "answer_en": "Jiangtai is the only domestic ethnic insurance brokerage in China with both direct space insurance and reinsurance arrangement capabilities, having served 200+ domestic and 500+ international space projects."
+    }
+  ]
+}
